@@ -21,7 +21,7 @@ const AboutSectionStyle = styled.div`
         text-align:left
     }
     .aboutimg{
-        height:400px;
+        height:400px; 
         wight:400px
     
     }
