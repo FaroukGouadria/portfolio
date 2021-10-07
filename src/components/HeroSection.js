@@ -34,7 +34,7 @@ const HeroStyles = styled.div `
   .hero__img {
     max-width: 900px;
     width: 100%;       
-    height: 600px;
+    height: 600px; 
     margin: 0 auto;
     border: 2px solid var(--gray-1);
   }
@@ -42,6 +42,7 @@ const HeroStyles = styled.div `
     margin-top: -18rem;
    
   }
+  
   .hero__social,
   .hero__scrollDown {
     display: flex;
@@ -109,6 +110,7 @@ const HeroStyles = styled.div `
     .hero__info {
       margin-top: 3rem;
     }
+    
     .hero__social {
       left: 0px;
       bottom: -15%;
@@ -157,12 +159,12 @@ export default function HeroSection() {
             <img src={Profile} alt="gouadria farouk" />
           </div>
           <div className="hero__info">
-            <Ptex>
+            <Ptex className="abouttext">
                 Etudient D'ingenieurie informatique au sein de L'Ecole PolyTechnique Sousse, Je suis actuellement à la recherche d'un stage de fin d'études.Mes stages et mes Projets m'a permis de dévelloper mes compétences dans le devellopement informatique et de confirmer mon envoie d'ecoluer dans ce domaine.je souhaite m'impliquer efficacement au sein de votre équipe.
             </Ptex>
-             
+             </div>
             <Button btnText="see my works" btnLink="/projects" />
-          </div>
+          
           <div className="hero__social">
             <div className="hero__social__indicator">
               <p>Follow</p>
