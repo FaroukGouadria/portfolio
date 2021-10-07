@@ -8,7 +8,7 @@ const PStyle = styled.div `
   line-height: 1.3em;
   p{
      color: black;
-    font-weight: bolder;
+    font-weight: bolder;    
       
      
   }
