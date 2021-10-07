@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import {createGlobalStyle} from "styled-components";
 
 const GlobalStyles = createGlobalStyle `
 *{
@@ -26,10 +26,10 @@ const GlobalStyles = createGlobalStyle `
     text-decoration: none;
   }
   img, svg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 89%;
+    height: 730px;
   }
+ 
   button{
     outline: none
   }
@@ -37,6 +37,10 @@ const GlobalStyles = createGlobalStyle `
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+  }
+  img{
+     margin-top:25px;
+     opacity:1;
   }
 /* Smooth Scroll  */
   [data-scrollbar] {
